@@ -4,8 +4,8 @@ class User < ApplicationRecord
 
   has_secure_password 
 
-  validates :username, {uniqeness: true}
-  validates :email, {uniqeness: true}
+  # validates :username, {uniqeness: true}
+  # validates :email, {uniqeness: true}
 
 
 
