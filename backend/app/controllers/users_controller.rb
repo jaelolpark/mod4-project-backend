@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show]
+  before_action :set_user, only: [:show, :destroy, :update]
 
   def index
     @users = User.all
@@ -16,6 +16,23 @@ class UsersController < ApplicationController
       render json: {user: @user}, status: :created
     else  
       render json: {errors: @user.errors.full_messages}, status: :unprocessable_entity
+    end
+  end
+
+  def destroy
+    unless @user.nil?
+      @user.destroy
+      render json: @user
+    else
+      render json: { error: "User not Found!" }, status: 404
+    end
+  end
+
+  def update
+    if @user.update(user_params)
+      render json: @user, status: :updated
+    else  
+      render json: @user.errors.full_messages, status: :unprocessable_entity
     end
   end
 
