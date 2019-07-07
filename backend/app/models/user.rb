@@ -1,6 +1,6 @@
 class User < ApplicationRecord
-  has_many :rooms, through: :reservation
   has_many :reservations
+  has_many :rooms, through: :reservations
 
   has_secure_password 
 

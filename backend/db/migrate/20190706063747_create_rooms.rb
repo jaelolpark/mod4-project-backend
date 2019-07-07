@@ -14,7 +14,6 @@ class CreateRooms < ActiveRecord::Migration[5.2]
 
       t.text :description
 
-      t.integer :reservation_id
       t.timestamps
     end
   end
