@@ -13,16 +13,16 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      render json: {user: @user}, status: :created
+      render json: { user: @user }, status: :created
     else  
-      render json: {errors: @user.errors.full_messages}, status: :unprocessable_entity
+      render json: { errors: @user.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
   def destroy
     unless @user.nil?
       @user.destroy
-      render json: @user
+      render json: { user: @user }
     else
       render json: { error: "User not Found!" }, status: 404
     end
@@ -30,9 +30,9 @@ class UsersController < ApplicationController
 
   def update
     if @user.update(user_params)
-      render json: @user, status: :updated
+      render json: { user: @user }, status: :updated
     else  
-      render json: @user.errors.full_messages, status: :unprocessable_entity
+      render json: { errors: @user.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
