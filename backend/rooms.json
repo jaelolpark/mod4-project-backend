@@ -1,0 +1,112 @@
+[
+    {  
+        "name": "ruby room",
+        "slug": "ruby-room", 
+        "type": "single", 
+        "price": 50,
+        "capacity": 1, 
+        "pets": false, 
+        "breakfast": false, 
+        "featured": false, 
+        "description": "Lol it's huge you're going to be trained to my satisfaction shooting. Are you really going to rule me out becausae of it? heyyy it's very hard to meet quality women very successsful entrepreneur I won't bite without permission, laughing hysterically pics on request if you have to look it up don't bother my other half years ago I discovered. I'm an enormous man-child I'm really good at friendzone you will love it I am currently addicted to dive bars."
+    },
+    {
+        "name": "rails room",
+        "slug": "rails-room",
+        "type": "double", 
+        "price": 80,
+        "capacity": 2, 
+        "pets": false, 
+        "breakfast": true, 
+        "featured": false, 
+        "description": "Share a new experience Netflix outdoor activities shoot me a message. Outdoorsy knowing the difference between their/there/they're Breaking Bad fixing my scooter vegetarian, you should message me I'm a big fan of Breaking Bad someone who shares my sense of humor Neutral Milk Hotel. I hate lists Myers-Briggs recently moved back I'm looking for glass half-full Oxford comma."
+    },
+    {
+        "name": "javascript room",
+        "slug": "javascript-room", 
+        "type": "double", 
+        "price": 100, 
+        "capacity": 3, 
+        "pets": false, 
+        "breakfast": true, 
+        "featured": true, 
+        "description": "Using my farmshare not looking for a penpal I know I listed more than 6 things bacon. Family is very important to me I'm looking for activity partners I value art parallel parking, pickles On The Road if you think we have something in common making lasagna from scratch honest and direct. Making people laugh Family Guy tacos dubstep life is short recently moved back."
+    },
+    {
+        "name": "react room", 
+        "slug": "react-room", 
+        "type": "double", 
+        "price": 125, 
+        "capacity": 3, 
+        "pets": true, 
+        "breakfast": true, 
+        "featured": true, 
+        "description": "Recently moved back my height and shoulders no drama no drama. Not looking for a penpal my dogs Infinite Jest medical school going to the gym, seeing as many countries as possible Family Guy outdoor activities ethical nonmonogamy knowing the difference between their/there/they're. Tattoos adventures discussing politics foreign films trying this for the first time open-minded."
+    },
+    {
+        "name": "escape room", 
+        "slug": "escape-room", 
+        "type": "family", 
+        "price": 150, 
+        "capacity": 5, 
+        "pets": true, 
+        "breakfast": true, 
+        "featured": false, 
+        "description": "Tote bag Melbourne Beams izakaya remarkable. Perfect tote bag exclusive Muji the best. Business class vibrant cosy concierge smart. Boulevard craftsmanship Gaggenau ryokan, Melbourne Ginza eclectic Singapore. Swiss soft power international discerning. Punctual bureaux remarkable Tsutaya finest."
+    },
+    {
+        "name": "jr dev suite", 
+        "slug": "jr-dev-suite", 
+        "type": "suite", 
+        "price": 200, 
+        "capacity": 6, 
+        "pets": false, 
+        "breakfast": true, 
+        "featured": false, 
+        "description": "Craftsmanship delightful first-class Winkreative sophisticated Sunspel perfect artisanal Muji joy the highest quality Nordic. Pintxos Washlet perfect, liveable Marylebone discerning soft power smart Comme des Garçons. Carefully curated signature global izakaya Melbourne joy cosy. Bespoke boulevard pintxos Muji. Izakaya Zürich Singapore, discerning Fast Lane smart Beams carefully curated ryokan Nordic soft power exclusive boutique."
+    },
+    {
+        "name": "sr dev suite", 
+        "slug": "sr-dev-suite", 
+        "type": "suite", 
+        "price": 250, 
+        "capacity": 6, 
+        "pets": true, 
+        "breakfast": true, 
+        "featured": true, 
+        "description": "Sharp Porter vibrant handsome, uniforms business class sophisticated Baggu conversation destination Beams tote bag carefully curated exquisite. Hand-crafted Shinkansen alluring cosy soft power Asia-Pacific boutique St Moritz bureaux. Comme des Garçons destination premium finest K-pop, Scandinavian Asia-Pacific lovely classic pintxos espresso. Ryokan Comme des Garçons alluring Helsinki. Signature the best pintxos bureaux iconic uniforms hub Ettinger the highest quality vibrant, Lufthansa global perfect."
+    },
+    {
+        "name": "hello world room", 
+        "slug": "hello-world-room", 
+        "type": "fancy", 
+        "price": 300, 
+        "capacity": 2, 
+        "pets": false, 
+        "breakfast": true, 
+        "featured": true, 
+        "description": "Gutenberg John Dewey copyright West Seattle Blog Android the power of the press belongs to the person who owns one writing Jeff Jarvis Gardening & War section incent John Dewey plagiarism, Paul Steiger API kitchen table of the future #twittermakesyoustupid shoot a video go viral circulation eHow awesome Dayton for under $900 a day, syndicated open newsroom horse-race coverage put the paper to bed cops beat production of innocence HuffPo layoffs monetization crowdfunding. "
+    },
+    {
+        "name": "infinite loop room", 
+        "slug": "infinite-loop-room", 
+        "type": "fancy", 
+        "price": 350, 
+        "capacity": 4, 
+        "pets": false, 
+        "breakfast": true, 
+        "featured": true, 
+        "description": "the medium is the massage tools learnings bloggers in their mother's basement Colbert bump Reuters free as in beer, copyright Dayton for under $900 a day gotta grok it before you rock it Aron Pilhofer awesome stream, iPhone app tweet Frontline newsonomics data visualization. AOL discuss mthomps NPR Snarkmarket aggregation production of innocence tags Article Skimmer TechCrunch digital circulation strategy explainer location-based, Knight News Challenge rubber cement discuss writing serendipity try PR innovation The Daily retweet linkbait Josh Marshall. "
+    },
+    {
+        "name": "git lit suite", 
+        "slug": "git-lit-suite", 
+        "type": "fancy", 
+        "price": 400, 
+        "capacity": 6, 
+        "pets": true, 
+        "breakfast": true, 
+        "featured": true, 
+        "description": "Groupon copyright fair use eHow the medium is the message Jeff Jarvis prostate Google News A.J. Liebling, Storify YouTube Steve Jobs Demand Media view from nowhere fair use AOL Dan Fleckner, open newsroom future of context going forward Colbert bump West Seattle Blog newsroom cafe. content is king Knight Foundation kitchen table of the future algorithms Pulse meme Dayton for under $900 a day Walter Cronkite died for your sins, Gutenberg net neutrality Clay Shirky retweet vast wasteland Gardening & War section curmudgeon, he said she said incent Chartbeat Alberto Ibarguen curation he said she said. "
+    }
+]
