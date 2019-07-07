@@ -32,7 +32,6 @@ ActiveRecord::Schema.define(version: 2019_07_06_063747) do
     t.boolean "breakfast"
     t.boolean "featured"
     t.text "description"
-    t.integer "reservation_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
